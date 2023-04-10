@@ -28,6 +28,7 @@ public class MenuUIHandler : MonoBehaviour
         ColorPicker.onColorChanged += NewColorSelected;
         ColorPicker.SelectColor(MainManager.Instance.TeamColor); // pre-select saved color in MainManager
     }
+   
     public void StartNew ()
     {
         SceneManager.LoadScene(1);
